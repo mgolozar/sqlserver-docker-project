@@ -28,32 +28,14 @@ Containerized SQL Server via Docker Compose
 
 Modular and clean project structure for easy navigation
 
-## Project Structure
  
-sqlserver-docker-project/
-├── docker/
-│   └── docker-compose.yml       # SQL Server container setup
-├── scripts/
-│   ├── init.sql                 # Schema creation
-│   └── sample_data.sql          # Test data seeding
-├── queries/
-│   ├── advanced_queries.sql     # CTEs, Window Functions, Pivot, etc.
-│   └── indexing.sql             # Index creation and tuning
-├── ERD/
-│   └── erd.png                  # Entity Relationship Diagram
-└── README.md                    # This file
+## Quick Start
 
-
-
-Quick Start
 Clone this repository
-
-
 git clone https://github.com/mgolozar/sqlserver-docker-project.git
 cd sqlserver-docker-project
 Start SQL Server with Docker Compose
 
- 
 cd docker
 docker-compose up -d
 Connect using VSCode
