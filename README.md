@@ -46,7 +46,7 @@ Quick Start
 Clone this repository
 
 
-git clone https://github.com/yourusername/sqlserver-docker-project.git
+git clone https://github.com/mgolozar/sqlserver-docker-project.git
 cd sqlserver-docker-project
 Start SQL Server with Docker Compose
 
